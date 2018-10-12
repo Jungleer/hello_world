@@ -1,0 +1,42 @@
+#Homepage
+{
+	height:100%;
+	width:100%;
+	background:url(../image/Homepage.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:block;
+}
+h1#White_h1
+{
+	color:white;
+
+}
+#White_for_homepage
+{
+	font-size:30px;
+	color:white;
+}
+div#Menu
+{
+	position:fixed;
+	top:100px;
+	left:10px;
+}
+ul li#leftStyle
+{
+	float:left;
+	list-style:none;
+	display:inline-block;
+	
+}
+ul
+{
+	text-decoration:none;
+}
+img.rightfont
+{
+	top:50px;
+	left:10px;
+	position:fixed;
+}

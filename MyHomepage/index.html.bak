@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="cssStyle/css1.css">
+<script type="text/javascript"src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<meta charset="utf-8" />
+<title>Index</title>
+<style>
+body{margin:0; padding:0;}
+a:hover{opacity:1;text-decoration:none;}
+a:link{text-decoration:none;}
+</style>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	$(".rightfont").click(function()
+	{
+		$("#Menu").slideToggle();
+	});
+});
+
+
+</script>
+<script >
+    window.onload=function(){
+	var $html = document.getElementsByTagName("html")[0];
+    var $body = document.getElementsByTagName("body")[0];
+    $html.onmousemove = function(e) {
+        var  $elem= document.createElement("b");
+        $elem.style.color = "#3EEDE7";
+        $elem.style.zIndex = 9999;
+        $elem.style.position = "absolute";
+        $elem.style.select = "none";
+        var x = e.pageX;
+        var y = e.pageY;
+        $elem.style.left = (x - 10) + "px";
+        $elem.style.top = (y - 20) + "px";
+        clearInterval(anim);
+        $elem.innerText = "O";
+        $elem.style.fontSize = Math.random() * 20 + 8 + "px";
+        var increase = 0;
+        var anim;
+        setTimeout(function() {
+            anim = setInterval(function() {
+                if (++increase == 100) {
+                    clearInterval(anim);
+                    $body.removeChild($elem);
+                }
+                $elem.style.top = y - 20 - increase + "px";
+                $elem.style.opacity = (150 - increase) / 120;
+            }, 8);
+        }, 50);
+        $body.appendChild($elem);
+    };
+	};
+</script>
+
+</head>
+<body >
+
+<div id="Homepage" >
+<img src="image/menuicon.jpg" class="rightfont" / >
+<div id="Menu">
+<ul  id="leftStyle">
+<li><a href="#home"><h3 id="White_for_homepage">HOME</h3></li>
+<li><a href="#skill"><h3 id="White_for_homepage">SKILL</h3></li>
+<li><a href="exprience"><h3 id="White_for_homepage">EXPRIENCE</h3></li>
+<li><a href="contact"><h3 id="White_for_homepage">CONTACT</h3></li>
+</ul>
+</div>
+
+</div>
+
+</body>
+</html>
