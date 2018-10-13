@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\bin\Debug\学生管理系统.exe.config
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\bin\Debug\学生管理系统.exe
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\bin\Debug\学生管理系统.pdb
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.Form1.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.exe
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.pdb
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.Teacher.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.Student.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.Evaluateteacher.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.FindScore.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.DatesOfStudents.resources
+C:\Users\Lenovo\source\repos\学生管理系统\学生管理系统\obj\Debug\学生管理系统.csproj.ResolveComReference.cache
